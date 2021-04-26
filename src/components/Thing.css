@@ -1,0 +1,58 @@
+.thing {
+    margin: 2px 0;
+    padding: 0;
+
+}
+
+.thing__form {
+    display: grid;
+    grid-template-columns: 1fr 40px 20px 20px;
+    grid-gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.thing__del{
+    color: red;
+    margin: 0 3px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+}
+.thing__save{
+    color: grey;
+    opacity: 0.5;
+    margin: 0 3px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.thing__save_active {
+    color: green;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.thing__item {
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-gap: 10px;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.thing__name {
+    margin: 0;
+    padding: 0;
+}
+
+.thing__count {
+    margin: 0;
+    padding: 0;
+}

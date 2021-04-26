@@ -1,0 +1,49 @@
+.inventory {
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.inventory__place {
+    margin: 0 0 5px 0;
+    text-align: center;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.inventory__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inventory__add {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 40px 20px 20px;
+    grid-gap: 5px;
+}
+
+.inventory__add-button {
+    color: grey;
+    opacity: 0.5;
+    margin: 0 3px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.inventory__add-button_active {
+    color: green;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.inventory__add-title {
+    margin: 5px;
+    font-size: 12px;
+}

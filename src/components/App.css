@@ -1,0 +1,11 @@
+.app {
+    max-width: 1100px;
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
