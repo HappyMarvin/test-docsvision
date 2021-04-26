@@ -66,7 +66,7 @@ function App() {
 
   useEffect(() => {
     setPlacesObject(getPlacesObject);
-  }, [inventory, places])
+  }, [inventory])
 
   function handlePlaceClick (placeId) {
     setActivePlace(placeId)
